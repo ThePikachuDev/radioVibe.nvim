@@ -43,23 +43,22 @@ Install `radiovibe.nvim` using your favorite plugin manager.
 }
 ``` 
 
-
 ### Usage
 
-- Once installed, you can use the following user commands:
-Command	Description
-| Command                    | Usage                                         |
-|----------------------------|-----------------------------------------------|
-| `:RadioVibePlay`           | Starts playing the default configured music.  |
-| `:RadioVibePlayFile <path>`| Starts playing a specific music file.         |
-| `:RadioVibeStop`           | Stops the music playback.                     |
-| `:RadioVibeToggleMusic`    | Toggles music playback (play/pause).          |
-| `:RadioVibeVolumeUp`       | Increases the music volume by 5%.             |
-| `:RadioVibeVolumeDown`     | Decreases the music volume by 5%.             |
-| `:RadioVibeToggleLoop`     | Toggles looping the current track.            |
-| `:RadioVibeShow`           | Opens the animated ASCII art window.          |
-| `:RadioVibeHide`           | Closes the animated ASCII art window.         |
-| `:RadioVibeToggle`         | Toggles the visibility of the ASCII art window. |
+Once installed, you can use the following user commands:
+
+| Command                     | Description                                     |
+| :---                        | :---                                            |
+| `:RadioVibePlay`            | Starts playing the default configured music.    |
+| `:RadioVibePlayFile <path>` | Starts playing a specific music file.           |
+| `:RadioVibeStop`            | Stops the music playback.                       |
+| `:RadioVibeToggleMusic`     | Toggles music playback (play/pause).            |
+| `:RadioVibeVolumeUp`        | Increases the music volume by 5%.               |
+| `:RadioVibeVolumeDown`      | Decreases the music volume by 5%.               |
+| `:RadioVibeToggleLoop`      | Toggles looping the current track.              |
+| `:RadioVibeShow`            | Opens the animated ASCII art window.            |
+| `:RadioVibeHide`            | Closes the animated ASCII art window.           |
+| `:RadioVibeToggle`          | Toggles the visibility of the ASCII art window. |
 
 ### Example Keymappings
 
