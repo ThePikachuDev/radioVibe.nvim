@@ -1,7 +1,7 @@
 local M = {}
 
 local config = {
-	music_path = "~/Music/Focus Beats _Slack_ - Malfred Music Library - SoundLoadMate.com.mp3",
+	music_path = "~/Music/cozy beats.mp3",
 	mpv_player = "mpv",
 
 	ascii_frames = {

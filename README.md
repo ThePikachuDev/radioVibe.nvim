@@ -9,6 +9,13 @@
 
 ---
 
+### **Preview**
+
+
+![preview1](./assets/preview1.png)
+![preview2](./assets/preview2.png)
+
+---
 ### **Features**
 
 -   **Floating ASCII Art Display**: A minimalist, animated floating window with a charming ASCII character.
@@ -43,6 +50,7 @@ Install `radiovibe.nvim` using your favorite plugin manager.
 }
 ``` 
 
+
 ### Usage
 
 Once installed, you can use the following user commands:
@@ -59,6 +67,7 @@ Once installed, you can use the following user commands:
 | `:RadioVibeShow`            | Opens the animated ASCII art window.            |
 | `:RadioVibeHide`            | Closes the animated ASCII art window.           |
 | `:RadioVibeToggle`          | Toggles the visibility of the ASCII art window. |
+
 
 ### Example Keymappings
 
