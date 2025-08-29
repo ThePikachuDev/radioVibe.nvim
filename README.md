@@ -11,7 +11,7 @@
 
 ### **Features**
 
--   **Floating ASCII Art Display**: A minimalist, animated floating window with a charming ASCII character that moves its hands and plays spinning discs. The animation provides a subtle visual vibe to accompany your music.
+-   **Floating ASCII Art Display**: A minimalist, animated floating window with a charming ASCII character.
 -   **Integrated Music Player**: Built-in functionality to play music files using **mpv** as a backend. There's no need for a separate terminal or application.
 -   **Playback Controls**: You can easily toggle playback, adjust volume, and control looping directly from Neovim commands.
 -   **Customizable**: Configure the music path, mpv executable, and animation frames to suit your preferences.
@@ -34,11 +34,10 @@ Install `radiovibe.nvim` using your favorite plugin manager.
 
 ```lua
 {
-  'your-github-username/radiovibe.nvim', -- Replace with your actual repo
+  'ThePikachuDev/radioVibe.nvim', 
   config = function()
     require('radiovibe').setup({
-      -- Optional: Configure the path to your music file
-      music_path = '~/Music/lo-fi-beats.m4a',
+      music_path = '~/Music/lo-fi-beats.mp3',
     })
   end
 }
@@ -49,17 +48,18 @@ Install `radiovibe.nvim` using your favorite plugin manager.
 
 - Once installed, you can use the following user commands:
 Command	Description
-
-:RadioVibePlay	Starts playing the default configured music.
-:RadioVibePlayFile <path>	Starts playing a specific music file.
-:RadioVibeStop	Stops the music playback.
-:RadioVibeToggleMusic	Toggles music playback (play/pause).
-:RadioVibeVolumeUp	Increases the music volume by 5%.
-:RadioVibeVolumeDown	Decreases the music volume by 5%.
-:RadioVibeToggleLoop	Toggles looping the current track.
-:RadioVibeShow	Opens the animated ASCII art window.
-:RadioVibeHide	Closes the animated ASCII art window.
-:RadioVibeToggle	Toggles the visibility of the ASCII art window.
+| Command                    | Usage                                         |
+|----------------------------|-----------------------------------------------|
+| `:RadioVibePlay`           | Starts playing the default configured music.  |
+| `:RadioVibePlayFile <path>`| Starts playing a specific music file.         |
+| `:RadioVibeStop`           | Stops the music playback.                     |
+| `:RadioVibeToggleMusic`    | Toggles music playback (play/pause).          |
+| `:RadioVibeVolumeUp`       | Increases the music volume by 5%.             |
+| `:RadioVibeVolumeDown`     | Decreases the music volume by 5%.             |
+| `:RadioVibeToggleLoop`     | Toggles looping the current track.            |
+| `:RadioVibeShow`           | Opens the animated ASCII art window.          |
+| `:RadioVibeHide`           | Closes the animated ASCII art window.         |
+| `:RadioVibeToggle`         | Toggles the visibility of the ASCII art window. |
 
 ### Example Keymappings
 
@@ -88,6 +88,7 @@ the test musics and ascii arts are not mine, i just made them for this plugin. i
 ### Contributing
 
 Contributions are welcome! If you have ideas for new features, bug fixes, or new ASCII art frames, feel free to submit a pull request or open an issue on the GitHub repository.
+
 ---
 
 ### **License**
